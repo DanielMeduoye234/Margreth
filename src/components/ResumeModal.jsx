@@ -95,7 +95,7 @@ export const ResumeModal = ({ isOpen, onClose, onShowToast }) => {
             <div>
               <h2 className="cv-section-title">KEY SKILLS</h2>
               <p className="cv-text">
-                Client Acquisition, B2B Sales, Negotiation Skills, Relationship Management, Problem-Solving, Time Management, Market Analysis, Calendar Coordination.
+                Social Media Management, Content Scheduling, Client Acquisition, B2B Sales, Negotiation Skills, Relationship Management, Problem-Solving, Time Management, Market Analysis, Calendar Coordination.
               </p>
             </div>
           </div>

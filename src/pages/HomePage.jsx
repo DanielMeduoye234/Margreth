@@ -46,7 +46,7 @@ export const HomePage = ({ onOpenResume }) => {
             </h1>
 
             <p className="hero-bio-lead">
-              Organized, dependable, and commercial-minded administrative partner with proven experience supporting executives, cross-functional teams of <strong>20+ employees</strong>, and scaling businesses. I turn operational friction into effortless execution.
+              Organized, dependable, and commercial-minded administrative partner with proven experience supporting executives, social media presence, cross-functional teams of <strong>20+ employees</strong>, and scaling businesses. I turn operational friction into effortless execution.
             </p>
 
             {/* Action Buttons */}
@@ -117,6 +117,7 @@ export const HomePage = ({ onOpenResume }) => {
 
               <div className="showcase-skills-chips">
                 <span className="skill-chip"><CheckCircle2 size={13} /> Calendar & Travel Management</span>
+                <span className="skill-chip"><CheckCircle2 size={13} /> Social Media Management</span>
                 <span className="skill-chip"><CheckCircle2 size={13} /> HubSpot CRM Operations</span>
                 <span className="skill-chip"><CheckCircle2 size={13} /> Inbox Zero Mastery</span>
                 <span className="skill-chip"><CheckCircle2 size={13} /> Cross-Department Liaison</span>
@@ -185,7 +186,7 @@ export const HomePage = ({ onOpenResume }) => {
           <SectionHeader
             badge="Core Solutions"
             title="How I Can Support Your Business"
-            subtitle="From calendar mastery to CRM pipelines and event logistics."
+            subtitle="From calendar mastery and social media management to CRM pipelines and event logistics."
           />
 
           <div className="services-grid-preview">
@@ -207,7 +208,7 @@ export const HomePage = ({ onOpenResume }) => {
 
           <div className="section-cta-center">
             <Link to="/services" className="btn btn-secondary btn-lg">
-              <span>View All 6 Dedicated Services</span>
+              <span>View All {SERVICES.length} Dedicated Services</span>
               <ArrowRight size={18} />
             </Link>
           </div>

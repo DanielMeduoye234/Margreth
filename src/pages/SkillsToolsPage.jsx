@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Cpu, CheckCheck, Briefcase, HeartHandshake, CheckCircle2, Sparkles, Filter } from 'lucide-react';
+import { Cpu, CheckCheck, Briefcase, HeartHandshake, CheckCircle2, Sparkles, Filter, Share2 } from 'lucide-react';
 import { TOOLS_DATA, SKILLS_CATEGORIES } from '../data/portfolioData';
 import { SectionHeader } from '../components/SectionHeader';
 
 export const SkillsToolsPage = () => {
   const [selectedFilter, setSelectedFilter] = useState('All');
 
-  const categories = ['All', 'Project Management', 'CRM & Sales', 'Communication', 'Productivity'];
+  const categories = ['All', 'Social Media', 'Project Management', 'CRM & Sales', 'Communication', 'Productivity'];
 
   const filteredTools = selectedFilter === 'All'
     ? TOOLS_DATA
@@ -15,6 +15,7 @@ export const SkillsToolsPage = () => {
   const getCategoryIcon = (iconName) => {
     switch (iconName) {
       case 'CheckCheck': return <CheckCheck size={22} />;
+      case 'Share2': return <Share2 size={22} />;
       case 'Briefcase': return <Briefcase size={22} />;
       case 'HeartHandshake': return <HeartHandshake size={22} />;
       default: return <Sparkles size={22} />;
@@ -121,6 +122,7 @@ export const SkillsToolsPage = () => {
 
           <div className="soft-skills-grid">
             <div className="soft-skill-pill"><CheckCircle2 size={16} className="text-primary" /> Active Listening & Clear Communication</div>
+            <div className="soft-skill-pill"><CheckCircle2 size={16} className="text-primary" /> Brand Voice & Audience Engagement Consistency</div>
             <div className="soft-skill-pill"><CheckCircle2 size={16} className="text-primary" /> High Emotional Intelligence (EQ)</div>
             <div className="soft-skill-pill"><CheckCircle2 size={16} className="text-primary" /> Calm Under High-Pressure Deadlines</div>
             <div className="soft-skill-pill"><CheckCircle2 size={16} className="text-primary" /> Resourceful & Autonomous Problem Solver</div>

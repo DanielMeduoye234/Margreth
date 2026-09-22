@@ -1,4 +1,4 @@
-# Margreth Osudoh — Virtual Assistant & Administrative Specialist Portfolio
+# Margreth Osudoh — Virtual Assistant, Social Media & Administrative Specialist Portfolio
 
 A multi-page React application built with **React**, **Vite**, **React Router DOM**, **Lucide Icons**, and a responsive CSS design system.
 
@@ -7,12 +7,12 @@ A multi-page React application built with **React**, **Vite**, **React Router DO
 ## 🌟 Key Features & Highlights
 
 1. **Multi-Page Architecture (React Router DOM)**:
-   - **`/` (Home)**: High-converting hero with live WAT clock, key metrics (20+ supported, 3.90 CGPA), value pillars, featured services preview, recent work history snapshot, tools pills, and dynamic CTA banner.
+   - **`/` (Home)**: High-converting hero with live WAT clock, key metrics (20+ supported, 3.90 CGPA), value pillars, featured services preview (including Social Media Management), recent work history snapshot, tools pills, and dynamic CTA banner.
    - **`/about` (About Margreth)**: Executive bio, academic background (University of Lagos BBA in International Business, 3.90 CGPA), 4 core operating pillars (Discretion, Proactivity, Time Defense, Team Bridge).
-   - **`/services` (Services & Solutions)**: 6 comprehensive service modules with detailed deliverables, 4-step collaboration process, and flexible engagement models.
+   - **`/services` (Services & Solutions)**: 7 comprehensive service modules (Executive Calendar, Social Media Management, Email & Inbox Zero, CRM Operations, Travel Logistics, Team Operations, Project Support) with detailed deliverables, 4-step collaboration process, and flexible engagement models.
    - **`/experience` (Work Experience)**: Full career history with interactive cards for Coxatech Industries, Nerdbug, and Salford & Co Corporation.
-   - **`/skills-tools` (Tools & Skills)**: Interactive category-filtered tool catalog (Jira, Linear, Trello, HubSpot, Google Meet, Gmail, Slack, Notion) and skill proficiency matrices with visual progress bars.
-   - **`/contact` (Contact & Inquiries)**: Direct WhatsApp integration, Email launcher, copy-to-clipboard buttons, interactive inquiry form, and FAQ accordion.
+   - **`/skills-tools` (Tools & Skills)**: Interactive category-filtered tool catalog (Canva, Buffer, Jira, Linear, Trello, HubSpot, Google Meet, Gmail, Slack, Notion) and skill proficiency matrices with visual progress bars across 4 core domains.
+   - **`/contact` (Contact & Inquiries)**: Direct WhatsApp integration, Email launcher, copy-to-clipboard buttons, interactive inquiry form with Social Media selection, and FAQ accordion.
 
 2. **Floating "Hire Me" Quick Connect Widget**:
    - Fixed floating button on every page with a pulsing availability indicator.

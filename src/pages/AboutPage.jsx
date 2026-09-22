@@ -30,13 +30,13 @@ export const AboutPage = ({ onOpenResume }) => {
               </div>
               <h3 className="bio-card-title">Dedicated, Dependable & Remote-Ready</h3>
               <p className="bio-paragraph">
-                I am an organized and dependable Virtual Assistant with proven experience supporting day-to-day administrative operations, managing high-stakes executive schedules, handling confidential email correspondence, maintaining immaculate digital records, and assisting international clients and team members remotely.
+                I am an organized and dependable Virtual Assistant with proven experience supporting day-to-day administrative operations, social media channels, managing high-stakes executive schedules, handling confidential email correspondence, maintaining immaculate digital records, and assisting international clients and team members remotely.
               </p>
               <p className="bio-paragraph">
                 Throughout my career at companies like <strong>Coxatech Industries</strong>, <strong>Nerdbug</strong>, and <strong>Salford & Co Corporation</strong>, I have worked with founders, C-suite executives, and cross-functional teams of <strong>20+ employees</strong>. My core strength lies in prioritizing multiple tasks under tight deadlines, communicating professionally across borders, and working independently with minimal supervision.
               </p>
               <p className="bio-paragraph">
-                I don't just execute checklists—I proactively spot inefficiencies, optimize procurement budgets, organize seamless corporate events, and defend executive focus hours so leadership can focus entirely on high-leverage growth.
+                I don't just execute checklists—I proactively spot inefficiencies, coordinate active social media scheduling, optimize procurement budgets, organize seamless corporate events, and defend executive focus hours so leadership can focus entirely on high-leverage growth.
               </p>
 
               <div className="bio-quote-callout">
@@ -80,7 +80,7 @@ export const AboutPage = ({ onOpenResume }) => {
                 </div>
                 <div className="fact-item">
                   <span className="fact-label">Key Tools</span>
-                  <span className="fact-value">Jira, Linear, Trello, HubSpot, Google Workspace</span>
+                  <span className="fact-value">Jira, Linear, HubSpot, Buffer, Canva, Google Workspace</span>
                 </div>
                 <div className="fact-item">
                   <span className="fact-label">Availability</span>

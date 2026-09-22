@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, Mail, Database, Plane, Users, FolderKanban, CheckCircle2, ArrowRight, Sparkles, MessageCircle, Clock, Shield } from 'lucide-react';
+import { Calendar, Mail, Database, Plane, Users, FolderKanban, Share2, CheckCircle2, ArrowRight, Sparkles, MessageCircle, Clock, Shield } from 'lucide-react';
 import { SERVICES, PERSONAL_INFO } from '../data/portfolioData';
 import { SectionHeader } from '../components/SectionHeader';
 
@@ -8,6 +8,7 @@ export const ServicesPage = () => {
   const getIcon = (iconName) => {
     switch (iconName) {
       case 'Calendar': return <Calendar size={28} />;
+      case 'Share2': return <Share2 size={28} />;
       case 'Mail': return <Mail size={28} />;
       case 'Database': return <Database size={28} />;
       case 'Plane': return <Plane size={28} />;
@@ -113,6 +114,7 @@ export const ServicesPage = () => {
               <p className="engagement-desc">Full 40 hrs/week dedicated support for founders, C-suite executives, and growing startups.</p>
               <ul className="engagement-perks">
                 <li><CheckCircle2 size={16} /> Full daily calendar & inbox management</li>
+                <li><CheckCircle2 size={16} /> Social media management & brand outreach</li>
                 <li><CheckCircle2 size={16} /> CRM & HubSpot pipeline operations</li>
                 <li><CheckCircle2 size={16} /> Travel logistics & event coordination</li>
                 <li><CheckCircle2 size={16} /> Real-time Slack/WhatsApp responsiveness</li>
@@ -124,9 +126,10 @@ export const ServicesPage = () => {
               <div className="featured-pill">Most Popular</div>
               <div className="engagement-badge">Part-Time / Retainer</div>
               <h3 className="engagement-title">Executive Support Retainer</h3>
-              <p className="engagement-desc">20 hrs/week flexible support ideal for managing executive schedules, meetings, and email flow.</p>
+              <p className="engagement-desc">20 hrs/week flexible support ideal for managing executive schedules, social media, meetings, and email flow.</p>
               <ul className="engagement-perks">
                 <li><CheckCircle2 size={16} /> Daily schedule coordination & reminders</li>
+                <li><CheckCircle2 size={16} /> Social media scheduling & community replies</li>
                 <li><CheckCircle2 size={16} /> Email inbox zero & client follow-ups</li>
                 <li><CheckCircle2 size={16} /> Cross-team liaison & task tracking</li>
                 <li><CheckCircle2 size={16} /> Priority async support</li>
@@ -137,8 +140,9 @@ export const ServicesPage = () => {
             <div className="engagement-card">
               <div className="engagement-badge">Project Basis</div>
               <h3 className="engagement-title">Special Project & Event Support</h3>
-              <p className="engagement-desc">Targeted support for corporate events, new employee onboarding sprint, or CRM database cleanups.</p>
+              <p className="engagement-desc">Targeted support for corporate events, social media launch campaigns, employee onboarding, or CRM cleanups.</p>
               <ul className="engagement-perks">
+                <li><CheckCircle2 size={16} /> Social media launch or content campaign sprint</li>
                 <li><CheckCircle2 size={16} /> Corporate event setup & logistics</li>
                 <li><CheckCircle2 size={16} /> Employee onboarding coordination</li>
                 <li><CheckCircle2 size={16} /> Digital archive & CRM hygiene audit</li>

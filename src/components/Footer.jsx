@@ -25,7 +25,7 @@ export const Footer = ({ onOpenResume }) => {
               </div>
             </Link>
             <p className="footer-bio-summary">
-              Empowering visionary leaders, founders, and dynamic distributed teams with dependable, high-precision administrative & operational partnership.
+              Empowering visionary leaders, founders, and dynamic distributed teams with dependable, high-precision administrative, social media & operational partnership.
             </p>
             <div className="footer-status-pill">
               <span className="live-status-dot"></span>
@@ -51,6 +51,7 @@ export const Footer = ({ onOpenResume }) => {
             <h4 className="footer-heading">Specializations</h4>
             <ul className="footer-links">
               <li><span>Calendar & Time Defense</span></li>
+              <li><span>Social Media Management</span></li>
               <li><span>HubSpot CRM & Sales Support</span></li>
               <li><span>Inbox Zero & Correspondence</span></li>
               <li><span>Travel & Event Logistics</span></li>

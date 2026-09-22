@@ -182,6 +182,7 @@ export const ContactPage = ({ onShowToast }) => {
                         onChange={handleChange}
                       >
                         <option value="Executive Virtual Assistance">Executive Virtual Assistance</option>
+                        <option value="Social Media Management">Social Media Management</option>
                         <option value="Calendar & Travel Management">Calendar & Travel Management</option>
                         <option value="CRM & B2B Sales Support">CRM & B2B Sales Support (HubSpot)</option>
                         <option value="Team Operations & Liaison">Team Operations & Liaison</option>

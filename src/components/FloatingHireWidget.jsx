@@ -54,7 +54,7 @@ export const FloatingHireWidget = ({ onShowToast }) => {
 
           <div className="popover-body">
             <p className="popover-desc">
-              Looking for a dependable Virtual Assistant to handle calendar, CRM, correspondence, or team operations? Let's connect directly:
+              Looking for a dependable Virtual Assistant to handle calendar, social media, CRM, correspondence, or team operations? Let's connect directly:
             </p>
 
             {/* WhatsApp Option */}

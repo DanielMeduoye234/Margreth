@@ -2,9 +2,9 @@ export const PERSONAL_INFO = {
   name: "Margreth Osudoh",
   initials: "MO",
   avatar: "/margreth.png",
-  role: "Virtual Assistant | Administrative Support",
+  role: "Virtual Assistant | Administrative & Social Media Support",
   headline: "High-Impact Virtual Assistant & Operations Partner",
-  subheadline: "Empowering executives, founders, and distributed teams by mastering calendar logistics, inbox triage, CRM pipelines, and cross-functional operations with meticulous precision.",
+  subheadline: "Empowering executives, founders, and distributed teams by mastering calendar logistics, social media management, inbox triage, CRM pipelines, and cross-functional operations with meticulous precision.",
   whatsapp: "08148013690",
   whatsappIntl: "+2348148013690",
   email: "margrethuzoma63@gmail.com",
@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   cgpa: "3.90",
   teamSupportedCount: "20+",
   yearsExperience: "2+",
-  bio: "Organized and dependable Virtual Assistant with experience supporting day-to-day administrative operations, managing schedules, handling email correspondence, maintaining digital records, and assisting customers and team members remotely. Skilled at prioritizing multiple tasks, communicating professionally, and working independently with minimal supervision. Comfortable using digital productivity and collaboration tools to keep workflows organized and ensure deadlines are met. Seeking a remote Virtual Assistant opportunity where strong administrative, communication, and organizational skills can contribute to an efficient and productive team."
+  bio: "Organized and dependable Virtual Assistant with experience supporting day-to-day administrative operations, managing executive schedules, handling social media channels and content calendars, email correspondence, maintaining digital records, and assisting customers and team members remotely. Skilled at prioritizing multiple tasks, communicating professionally, and working independently with minimal supervision. Comfortable using digital productivity, social scheduling, and collaboration tools to keep workflows organized and ensure deadlines are met. Seeking a remote Virtual Assistant opportunity where strong administrative, communication, and organizational skills can contribute to an efficient and productive team."
 };
 
 export const EXPERIENCES = [
@@ -40,13 +40,14 @@ export const EXPERIENCES = [
     period: "May 2024 – Sept 2025",
     location: "Remote",
     type: "Remote Support",
-    summary: "Delivered high-impact virtual administrative assistance for a dynamic, distributed team of 20+ professionals.",
+    summary: "Delivered high-impact virtual administrative assistance and digital communication support for a dynamic, distributed team of 20+ professionals.",
     achievements: [
       "Provided comprehensive administrative support to a team of 20+ employees, including calendar management, expense reporting, and meeting coordination.",
+      "Assisted with coordinating digital channel updates, team communications, and audience correspondence, ensuring prompt responses and brand alignment.",
       "Acted as a reliable liaison between cross-functional departments, fostering clear communication, prompt follow-ups, and collaborative workflows.",
       "Assisted in onboarding new team members, facilitating smooth orientation sessions, and ensuring thorough compliance with company policies."
     ],
-    tags: ["20+ Team Support", "Cross-Department Liaison", "Employee Onboarding", "Expense Reporting", "Remote Collaboration"]
+    tags: ["20+ Team Support", "Social Media Coordination", "Cross-Department Liaison", "Employee Onboarding", "Expense Reporting", "Remote Collaboration"]
   },
   {
     id: "salford",
@@ -91,6 +92,18 @@ export const SERVICES = [
       "Meeting agendas & briefing packs",
       "Executive buffer and focus time defense",
       "Automated reminder sequences"
+    ]
+  },
+  {
+    id: "social-media",
+    icon: "Share2",
+    title: "Social Media Management & Digital Engagement",
+    description: "Curating and scheduling brand posts, community engagement, monitoring direct messages, audience interaction, and maintaining consistent content calendars across LinkedIn, X (Twitter), and Instagram.",
+    deliverables: [
+      "Multi-platform content calendar scheduling (Buffer, Hootsuite, Later)",
+      "Audience engagement, comment moderation & DM triage",
+      "Branded graphic asset curation using Canva & brand kits",
+      "Weekly & monthly reach metrics and performance reporting"
     ]
   },
   {
@@ -156,6 +169,20 @@ export const SERVICES = [
 ];
 
 export const TOOLS_DATA = [
+  {
+    name: "Canva",
+    category: "Social Media",
+    level: "Advanced",
+    color: "#00C4CC",
+    description: "Visual asset creation, branded templates, social graphics, and promotional flyers."
+  },
+  {
+    name: "Buffer",
+    category: "Social Media",
+    level: "Expert",
+    color: "#2C3E50",
+    description: "Multi-platform scheduling, automated posting, content queues, and engagement analytics."
+  },
   {
     name: "Jira",
     category: "Project Management",
@@ -226,6 +253,16 @@ export const SKILLS_CATEGORIES = [
     ]
   },
   {
+    title: "Social Media & Digital Content",
+    icon: "Share2",
+    skills: [
+      { name: "Social Media Scheduling & Management", level: 95 },
+      { name: "Community Engagement & DM Triage", level: 94 },
+      { name: "Content Calendar Planning & Curation", level: 92 },
+      { name: "Visual Design with Canva & Brand Kits", level: 90 }
+    ]
+  },
+  {
     title: "Business Growth & Sales Support",
     icon: "Briefcase",
     skills: [
@@ -253,8 +290,12 @@ export const FAQS = [
     answer: "Based in Lagos, Nigeria (WAT / GMT+1), Margreth is accustomed to overlapping smoothly with US Eastern (EST), US Pacific (PST), UK (GMT/BST), European (CET), and African business hours."
   },
   {
+    question: "Can Margreth handle both administrative tasks and social media management?",
+    answer: "Yes! Margreth combines executive virtual assistance with active social media management—handling content scheduling, inbox/DM triage, audience engagement, and community moderation alongside core administrative workflows."
+  },
+  {
     question: "How quickly can Margreth onboard and start?",
-    answer: "Margreth can start immediately. With extensive experience in remote tools like Jira, HubSpot, Linear, Slack, and Google Workspace, she requires minimal onboarding time to get up to speed with your workflow."
+    answer: "Margreth can start immediately. With extensive experience in remote tools like Jira, HubSpot, Linear, Buffer, Canva, Slack, and Google Workspace, she requires minimal onboarding time to get up to speed with your workflow."
   },
   {
     question: "What communication channels does Margreth prefer for daily updates?",
